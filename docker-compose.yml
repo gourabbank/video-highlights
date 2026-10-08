@@ -1,0 +1,7 @@
+services:
+  pipeline:
+    build: .
+    user: "${UID:-1000}:${GID:-1000}"
+    volumes:
+      - ./:/data
+    # override with: docker compose run --rm pipeline --input /data/clip.mp4 --out /data/results

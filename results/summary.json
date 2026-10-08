@@ -1,0 +1,858 @@
+{
+  "video": {
+    "duration_s": 306.04,
+    "fps": 29.97,
+    "width": 3840,
+    "height": 2160,
+    "video_codec": "h264",
+    "has_audio": false
+  },
+  "timings_s": {
+    "resize_720p": 40.0,
+    "extract_frames": 4.7,
+    "extract_audio": 0.1,
+    "shots_motion": 12.9,
+    "yolo": 40.5,
+    "vlm_load": 4.2,
+    "vlm_inference": 114.4,
+    "highlights": 1.3
+  },
+  "score_formula": "0.45*motion/max_motion + 0.25*avg_people/max_people + 0.30*vlm_yes",
+  "shots": [
+    {
+      "start": 0.0,
+      "end": 7.85,
+      "shot_id": 0,
+      "motion_score": 0.0978,
+      "avg_people": 9.19,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 147
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_00.jpg",
+      "keyframe_time": 3.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "something exciting or important happening",
+      "vlm_source": "json",
+      "score": 0.5898,
+      "selected": false
+    },
+    {
+      "start": 7.85,
+      "end": 15.69,
+      "shot_id": 1,
+      "motion_score": 0.0631,
+      "avg_people": 8.06,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 129
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_01.jpg",
+      "keyframe_time": 12.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one sentence describing the scene\"}}",
+      "vlm_source": "json",
+      "score": 0.5392,
+      "selected": false
+    },
+    {
+      "start": 15.69,
+      "end": 23.54,
+      "shot_id": 2,
+      "motion_score": 0.0593,
+      "avg_people": 8.31,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 133
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_02.jpg",
+      "keyframe_time": 23.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one sentence describing the scene\"}}",
+      "vlm_source": "json",
+      "score": 0.5428,
+      "selected": false
+    },
+    {
+      "start": 23.54,
+      "end": 31.39,
+      "shot_id": 3,
+      "motion_score": 0.0787,
+      "avg_people": 7.53,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 113
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_03.jpg",
+      "keyframe_time": 24.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "",
+      "vlm_source": "json",
+      "score": 0.5365,
+      "selected": false
+    },
+    {
+      "start": 31.39,
+      "end": 39.24,
+      "shot_id": 4,
+      "motion_score": 0.0725,
+      "avg_people": 8.0,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 128
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_04.jpg",
+      "keyframe_time": 34.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one sentence describing the scene\"}}",
+      "vlm_source": "json",
+      "score": 0.5439,
+      "selected": false
+    },
+    {
+      "start": 39.24,
+      "end": 47.08,
+      "shot_id": 5,
+      "motion_score": 0.0541,
+      "avg_people": 8.0,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 128
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_05.jpg",
+      "keyframe_time": 43.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one sentence describing the scene\"}}",
+      "vlm_source": "json",
+      "score": 0.5318,
+      "selected": false
+    },
+    {
+      "start": 47.08,
+      "end": 54.93,
+      "shot_id": 6,
+      "motion_score": 0.0866,
+      "avg_people": 8.0,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 120
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_06.jpg",
+      "keyframe_time": 50.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "yes",
+      "vlm_source": "json",
+      "score": 0.5532,
+      "selected": false
+    },
+    {
+      "start": 54.93,
+      "end": 62.78,
+      "shot_id": 7,
+      "motion_score": 0.0767,
+      "avg_people": 8.88,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 142
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_07.jpg",
+      "keyframe_time": 61.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "",
+      "vlm_source": "json",
+      "score": 0.5683,
+      "selected": false
+    },
+    {
+      "start": 62.78,
+      "end": 70.62,
+      "shot_id": 8,
+      "motion_score": 0.0826,
+      "avg_people": 8.06,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 129
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_08.jpg",
+      "keyframe_time": 63.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one sentence describing the scene\"}}",
+      "vlm_source": "json",
+      "score": 0.5521,
+      "selected": false
+    },
+    {
+      "start": 70.62,
+      "end": 78.47,
+      "shot_id": 9,
+      "motion_score": 0.0656,
+      "avg_people": 8.33,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 125
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_09.jpg",
+      "keyframe_time": 73.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "something exciting or important happening\"}}",
+      "vlm_source": "json",
+      "score": 0.5475,
+      "selected": false
+    },
+    {
+      "start": 78.47,
+      "end": 86.32,
+      "shot_id": 10,
+      "motion_score": 0.3664,
+      "avg_people": 6.75,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 108
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_10.jpg",
+      "keyframe_time": 80.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one exciting story.\".",
+      "vlm_source": "json",
+      "score": 0.7073,
+      "selected": true
+    },
+    {
+      "start": 86.32,
+      "end": 94.17,
+      "shot_id": 11,
+      "motion_score": 0.6818,
+      "avg_people": 8.56,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 137
+        },
+        {
+          "class": "sports ball",
+          "count": 1
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_11.jpg",
+      "keyframe_time": 87.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "something exciting or important happening\"}}",
+      "vlm_source": "json",
+      "score": 0.9598,
+      "selected": true
+    },
+    {
+      "start": 94.17,
+      "end": 102.01,
+      "shot_id": 12,
+      "motion_score": 0.2022,
+      "avg_people": 8.5,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 136
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_12.jpg",
+      "keyframe_time": 96.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "a new project",
+      "vlm_source": "json",
+      "score": 0.6418,
+      "selected": false
+    },
+    {
+      "start": 102.01,
+      "end": 109.86,
+      "shot_id": 13,
+      "motion_score": 0.2182,
+      "avg_people": 9.0,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 135
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_13.jpg",
+      "keyframe_time": 107.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "something exciting or important happening",
+      "vlm_source": "json",
+      "score": 0.6646,
+      "selected": false
+    },
+    {
+      "start": 109.86,
+      "end": 117.71,
+      "shot_id": 14,
+      "motion_score": 0.2022,
+      "avg_people": 8.19,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 131
+        },
+        {
+          "class": "sports ball",
+          "count": 1
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_14.jpg",
+      "keyframe_time": 112.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "",
+      "vlm_source": "json",
+      "score": 0.6342,
+      "selected": false
+    },
+    {
+      "start": 117.71,
+      "end": 125.55,
+      "shot_id": 15,
+      "motion_score": 0.2453,
+      "avg_people": 9.75,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 156
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_15.jpg",
+      "keyframe_time": 121.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one exciting story.\".",
+      "vlm_source": "json",
+      "score": 0.7009,
+      "selected": true
+    },
+    {
+      "start": 125.55,
+      "end": 133.4,
+      "shot_id": 16,
+      "motion_score": 0.1448,
+      "avg_people": 10.2,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 153
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_16.jpg",
+      "keyframe_time": 129.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one exciting story.\".",
+      "vlm_source": "json",
+      "score": 0.6456,
+      "selected": false
+    },
+    {
+      "start": 133.4,
+      "end": 141.25,
+      "shot_id": 17,
+      "motion_score": 0.135,
+      "avg_people": 9.69,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 155
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_17.jpg",
+      "keyframe_time": 141.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "",
+      "vlm_source": "json",
+      "score": 0.6266,
+      "selected": false
+    },
+    {
+      "start": 141.25,
+      "end": 149.1,
+      "shot_id": 18,
+      "motion_score": 0.1161,
+      "avg_people": 9.88,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 158
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_18.jpg",
+      "keyframe_time": 147.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one sentence describing the scene\"}}",
+      "vlm_source": "json",
+      "score": 0.6188,
+      "selected": false
+    },
+    {
+      "start": 149.1,
+      "end": 156.94,
+      "shot_id": 19,
+      "motion_score": 0.1681,
+      "avg_people": 8.73,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 131
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_19.jpg",
+      "keyframe_time": 151.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "something exciting or important happening\"}}",
+      "vlm_source": "json",
+      "score": 0.6249,
+      "selected": false
+    },
+    {
+      "start": 156.94,
+      "end": 164.79,
+      "shot_id": 20,
+      "motion_score": 0.1417,
+      "avg_people": 8.25,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 132
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_20.jpg",
+      "keyframe_time": 162.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "",
+      "vlm_source": "json",
+      "score": 0.5957,
+      "selected": false
+    },
+    {
+      "start": 164.79,
+      "end": 172.64,
+      "shot_id": 21,
+      "motion_score": 0.1809,
+      "avg_people": 8.31,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 133
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_21.jpg",
+      "keyframe_time": 166.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one sentence describing the scene\"}}",
+      "vlm_source": "json",
+      "score": 0.6231,
+      "selected": false
+    },
+    {
+      "start": 172.64,
+      "end": 180.48,
+      "shot_id": 22,
+      "motion_score": 0.1221,
+      "avg_people": 7.2,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 108
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_22.jpg",
+      "keyframe_time": 177.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one exciting story.\".",
+      "vlm_source": "json",
+      "score": 0.5571,
+      "selected": false
+    },
+    {
+      "start": 180.48,
+      "end": 188.33,
+      "shot_id": 23,
+      "motion_score": 0.1241,
+      "avg_people": 4.62,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 74
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_23.jpg",
+      "keyframe_time": 183.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one sentence describing the scene\"}}",
+      "vlm_source": "json",
+      "score": 0.4951,
+      "selected": false
+    },
+    {
+      "start": 188.33,
+      "end": 196.18,
+      "shot_id": 24,
+      "motion_score": 0.1835,
+      "avg_people": 7.0,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 112
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_24.jpg",
+      "keyframe_time": 190.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "yes",
+      "vlm_source": "json",
+      "score": 0.5927,
+      "selected": false
+    },
+    {
+      "start": 196.18,
+      "end": 204.03,
+      "shot_id": 25,
+      "motion_score": 0.1529,
+      "avg_people": 10.0,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 160
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_25.jpg",
+      "keyframe_time": 200.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "",
+      "vlm_source": "json",
+      "score": 0.646,
+      "selected": false
+    },
+    {
+      "start": 204.03,
+      "end": 211.87,
+      "shot_id": 26,
+      "motion_score": 0.1213,
+      "avg_people": 9.4,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 141
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_26.jpg",
+      "keyframe_time": 208.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "something exciting or important happening",
+      "vlm_source": "json",
+      "score": 0.6105,
+      "selected": false
+    },
+    {
+      "start": 211.87,
+      "end": 219.72,
+      "shot_id": 27,
+      "motion_score": 0.184,
+      "avg_people": 9.06,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 145
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_27.jpg",
+      "keyframe_time": 214.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one\" or \"no\" is something exciting or important happening?",
+      "vlm_source": "json",
+      "score": 0.6435,
+      "selected": false
+    },
+    {
+      "start": 219.72,
+      "end": 227.57,
+      "shot_id": 28,
+      "motion_score": 0.1296,
+      "avg_people": 9.25,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 148
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_28.jpg",
+      "keyframe_time": 223.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one sentence describing the scene\"}}",
+      "vlm_source": "json",
+      "score": 0.6123,
+      "selected": false
+    },
+    {
+      "start": 227.57,
+      "end": 235.41,
+      "shot_id": 29,
+      "motion_score": 0.1706,
+      "avg_people": 9.33,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 140
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_29.jpg",
+      "keyframe_time": 231.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "no\"}}",
+      "vlm_source": "json",
+      "score": 0.6413,
+      "selected": false
+    },
+    {
+      "start": 235.41,
+      "end": 243.26,
+      "shot_id": 30,
+      "motion_score": 0.0978,
+      "avg_people": 6.75,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 108
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_30.jpg",
+      "keyframe_time": 235.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "something exciting or important happening\"}}",
+      "vlm_source": "json",
+      "score": 0.53,
+      "selected": false
+    },
+    {
+      "start": 243.26,
+      "end": 251.11,
+      "shot_id": 31,
+      "motion_score": 0.0922,
+      "avg_people": 7.06,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 113
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_31.jpg",
+      "keyframe_time": 247.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "a new season of golf\"}}",
+      "vlm_source": "json",
+      "score": 0.5339,
+      "selected": false
+    },
+    {
+      "start": 251.11,
+      "end": 258.96,
+      "shot_id": 32,
+      "motion_score": 0.0862,
+      "avg_people": 4.6,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 69
+        },
+        {
+          "class": "sports ball",
+          "count": 1
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_32.jpg",
+      "keyframe_time": 251.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "",
+      "vlm_source": "json",
+      "score": 0.4696,
+      "selected": false
+    },
+    {
+      "start": 258.96,
+      "end": 266.8,
+      "shot_id": 33,
+      "motion_score": 0.051,
+      "avg_people": 3.81,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 61
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_33.jpg",
+      "keyframe_time": 262.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "a new project",
+      "vlm_source": "json",
+      "score": 0.427,
+      "selected": false
+    },
+    {
+      "start": 266.8,
+      "end": 274.65,
+      "shot_id": 34,
+      "motion_score": 0.067,
+      "avg_people": 4.69,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 75
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_34.jpg",
+      "keyframe_time": 272.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "a new project",
+      "vlm_source": "json",
+      "score": 0.4592,
+      "selected": false
+    },
+    {
+      "start": 274.65,
+      "end": 282.5,
+      "shot_id": 35,
+      "motion_score": 0.0571,
+      "avg_people": 2.2,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 33
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_35.jpg",
+      "keyframe_time": 276.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "",
+      "vlm_source": "json",
+      "score": 0.3916,
+      "selected": false
+    },
+    {
+      "start": 282.5,
+      "end": 290.34,
+      "shot_id": 36,
+      "motion_score": 0.0608,
+      "avg_people": 3.0,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 48
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_36.jpg",
+      "keyframe_time": 290.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one exciting story.\".",
+      "vlm_source": "json",
+      "score": 0.4137,
+      "selected": false
+    },
+    {
+      "start": 290.34,
+      "end": 298.19,
+      "shot_id": 37,
+      "motion_score": 0.1074,
+      "avg_people": 6.75,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 108
+        },
+        {
+          "class": "sports ball",
+          "count": 1
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_37.jpg",
+      "keyframe_time": 296.5,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "a new project",
+      "vlm_source": "json",
+      "score": 0.5363,
+      "selected": false
+    },
+    {
+      "start": 298.19,
+      "end": 306.04,
+      "shot_id": 38,
+      "motion_score": 0.0893,
+      "avg_people": 7.47,
+      "top_classes": [
+        {
+          "class": "person",
+          "count": 112
+        }
+      ],
+      "keyframe": "/data/results/keyframes/shot_38.jpg",
+      "keyframe_time": 304.0,
+      "caption": "exciting",
+      "exciting": true,
+      "reason": "one exciting story.\".",
+      "vlm_source": "json",
+      "score": 0.542,
+      "selected": false
+    }
+  ]
+}
